@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width:100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%),url('/home/saravanan/Pictures/georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position:relative;
+
+}
+.navbar{
+    width:100%;
+    height: 75px;
+    margin:0;
+    position: fixed;
+    /*background-color:orange; 
+    border: 5px;
+    border-color: white;*/
+}
+.icon{
+    width: 40% ;
+    float:left;
+    height: 70px;
+}
+
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color:white;
+    font-weight: bolder;
+    float:left;
+    text-transform: capitalize;
+    padding-left: 30%;
+    padding-top: 20px;
+}
+
+.heading{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color:white;
+    text-align: center;
+    padding-top:13% ;
+    font-size:3rem;
+    text-shadow: 2px 0 lightskyblue;
+}
+.li{
+    float:"left";
+    margin-left: 50%;
+    width:45%;
+    height: 75px;
+    padding-top: 20px;
+}
+a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align:justify;
+    color: white;
+    margin:4%
+}
+.li a{
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+.li a:hover{
+    color:yellow;
+}
+
+.role{
+    margin:3.5% auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1 rem;
+    color:white;
+    text-align: center;
+    text-shadow: 2px 0 lightskyblue;
+    font-weight: bold;
+}
+
+.asp{
+    padding-left: 3% ;
+    font-size: 1.3rem;
+    margin-top: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 0 1px lavenderblush ;
+    color:yellow;
+    
+}
+.ABOUT {
+    
+    width:100%;
+    background-color:lightgrey;
+    
+}
+.about img{
+    width:30%;
+    height:auto;
+    padding: 10%;
+    border-radius: 2px 2px green;
+ }
+    
